@@ -6,7 +6,7 @@ from requests.auth import HTTPBasicAuth
 
 # Configure logging
 logging.basicConfig(level=logging.DEBUG)
-app = Flask("__name__")
+app = Flask(__name__)
 
 # Configuration
 USERNAME = "d5900938-be95-4412-95b3-50b11983e13e"
